@@ -1,0 +1,38 @@
+header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.navbar{
+    position: relative;
+    max-width: calc(100%);
+    margin: auto;
+    padding-top: 7.5vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.logo {
+    position: absolute;
+    width: 75px;
+    transform: translateX(-180%);
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    float: right;
+}
+
+.nav-links a{
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: #00ffff;
+}

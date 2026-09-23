@@ -1,0 +1,63 @@
+@keyframes slideUp {
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.hero{
+    height: 100vh;
+
+    padding-top: 37vh;
+
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+
+    text-align: center;
+
+    background: url(/website/images/hero.png);
+    background-attachment: fixed;
+}
+
+.hero::after {
+    bottom: 2vh;
+    border: 10px solid;
+    border-color: #ffffff transparent transparent;
+    content: "";
+    height: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 0;
+}
+
+.hero h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.hero-text {
+    animation: slideUp 1s ease-in-out ;
+}
+.hero p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.cta-btn{
+    display: inline-block;
+
+    padding: 12px 24px;
+
+    background: #012f49;
+
+    color: #ffffff;
+
+    border-radius: 5px;
+}
+.cta-btn:hover{
+    background: #300385;
+    transition: 0.5s;
+}

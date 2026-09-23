@@ -1,0 +1,25 @@
+.contact{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,textarea{
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    padding: 12px;
+    background: #00ffff;
+    border: none;
+    cursor: pointer;
+}

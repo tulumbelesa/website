@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="veiwport" content="device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+   <header>
+        <section class="navbar">
+            <img src="images/Profile.png" class="logo" alt="profile">
+            <h1>Contact</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programming.html">Programming</a></li>
+                    <li><a href="photography.html">Photography</a></li>
+                    <li><a href="production.html">Music</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="tech.html">Tech Expertise</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="contact">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message or Feedback"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
